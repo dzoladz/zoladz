@@ -1,3 +1,5 @@
+# _site files created on build
+# _dev_config.yml for local testing
 _site
 _dev_config.yml
 .sass-cache

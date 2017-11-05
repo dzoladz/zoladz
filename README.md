@@ -30,4 +30,22 @@ The following procedure takes advantage of the Ansible work of Bill Erickson.
 
 You'll need to have a server running Ubuntu 16.04 LTS. I've got this running on a local VM on VirtualBox to experiment with making aesthetic changes or to explore new features in each release. You'll need to allocate about 4GB of RAM to the machine.
 
-Using the auto-installer script, services should only be listening on 127.0.0.1 by default. Assuming you establish a sane firewall configuration, you could also deploy this to Amazon EC2, Microsoft Azure, or Google Cloud Platfrom. One caveat to doing so, the auto-installer essentially follows the procedures for installing and configuring OpenSRF and Evergreen from the Evergreen-ILS website. As such, they use well-known passwords for the Ejabberd and Postgres accounts. This should not be a huge concern by itself. The script also sets Evergreen to use Rsyslog and NGINX, but the community instruction do not. These settings and passwords can be changed in settings.yml.  
+Using the auto-installer script, services should only be listening on 127.0.0.1 by default. Assuming you establish a sane firewall configuration, you could also deploy this to Amazon EC2, Microsoft Azure, or Google Cloud Platfrom. One caveat to doing so, the auto-installer essentially follows the procedures for installing and configuring OpenSRF and Evergreen from the Evergreen-ILS website. As such, they use well-known passwords for the Ejabberd and Postgres accounts. This should not be a huge concern by itself. The script also sets Evergreen to use Rsyslog and NGINX, but the community instruction do not. These settings and passwords can be changed in settings.yml.
+
+#### Install Git and Ansible
+```bash
+sudo apt-get install git ansible
+```
+#### Clone
+```bash
+git clone --branch collab/berick/ansible-installer-ubuntu-16.04  git://git.evergreen-ils.org/working/random.git
+```
+#### Change to `/random` directory
+```bash
+cd random
+```
+#### Run
+```bash
+sudo ansible-playbook playbook.yml -e "hosts=127.0.0.1"
+```
+In Chrome, or Firefox, navigate to `https://<HOSTNAME>/eg/staff/` and click through the SSL warning to access the staff client.

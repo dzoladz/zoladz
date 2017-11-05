@@ -62,11 +62,11 @@ In Chrome, or Firefox, navigate to `https://<HOSTNAME>/eg/staff/` and click thro
 
 #### Tools
 There are so many possible tools that it's laughable to create a list. For the sake of providing some potentials, here you go:
-- Equinox Migration Tools 
-```bash
-git clone git://git.esilibrary.com/migration-tools.git
-```
+- Equinox Migration Tools `git clone git://git.esilibrary.com/migration-tools.git`
 - pymarc [GitHub](https://github.com/edsu/pymarc)
+- PgAdmin [Website](https://www.pgadmin.org/)
+- Sequel Pro [Website](https://www.sequelpro.com/)
+- MarcEdit [Website](http://marcedit.reeset.net/)
 
 #### Presentations
 - Jason Etheridge, Staging Migrations for Success [Slides](http://tinyurl.com/EGmigrations2)

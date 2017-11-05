@@ -60,6 +60,14 @@ In Chrome, or Firefox, navigate to `https://<HOSTNAME>/eg/staff/` and click thro
 - Evergreen: Database Schema [master](http://docs.evergreen-ils.org/dev/schema/)
 - Evergreen: System Configuration and Customization [HTML](http://docs.evergreen-ils.org/3.0/_system_configuration_and_customization.html)
 
+#### Tools
+There are so many possible tools that it's laughable to create a list. For the sake of providing some potentials, here you go:
+- Equinox Migration Tools 
+```bash
+git clone git://git.esilibrary.com/migration-tools.git
+```
+- pymarc [GitHub](https://github.com/edsu/pymarc)
+
 #### Presentations
 - Jason Etheridge, Staging Migrations for Success [Slides](http://tinyurl.com/EGmigrations2)
 - The Usual Suspects (De-duplication Methods in Evergreen) [Slides](https://goo.gl/kKf1AO)

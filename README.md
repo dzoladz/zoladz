@@ -54,12 +54,15 @@ In Chrome, or Firefox, navigate to `https://<HOSTNAME>/eg/staff/` and click thro
 
 #### Consortium of Ohio Libraries
 Consortium of Ohio Libraries [Website](http://info.cool-cat.org/)
+
 COOL-CAT [Consortial Catalog](http://cool-cat.org/eg/opac/home)
 
 #### Documentation
 Evergreen: Database Schema [master](http://docs.evergreen-ils.org/dev/schema/)
+
 Evergreen: System Configuration and Customization [HTML](http://docs.evergreen-ils.org/3.0/_system_configuration_and_customization.html)
 
 #### Presentations
 Jason Etheridge, Staging Migrations for Success [Slides](http://tinyurl.com/EGmigrations2)
+
 The Usual Suspects (De-duplication Methods in Evergreen) [Slides](https://goo.gl/kKf1AO)

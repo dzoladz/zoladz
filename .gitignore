@@ -11,3 +11,4 @@ __pycache__/  # Exclude the whole folder
 
 # EXAMPLE
 *.test	# ignore .test files
+test.test

@@ -5,3 +5,9 @@ _dev_config.yml
 .sass-cache
 .jekyll-metadata
 
+# Python
+*.py[cod]     # Will match .pyc, .pyo and .pyd files.
+__pycache__/  # Exclude the whole folder
+
+# EXAMPLE
+*.test	# ignore .test files

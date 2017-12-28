@@ -9,6 +9,5 @@ _dev_config.yml
 *.py[cod]     # Will match .pyc, .pyo and .pyd files.
 __pycache__/  # Exclude the whole folder
 
-# EXAMPLE
-*.test	# ignore .test files
+# IGNORE SPECIFIC FILES
 test.test

@@ -46,3 +46,21 @@ pip freeze > requirements.txt
 ```
 pip install -r requirements.txt
 ```
+
+#### Bug with pyvenv3
+
+1. Virtual environment must be created without Pip
+```
+pyvenv3 --without-pip project_name
+```
+
+2. Activate the virtual environment, navigate to the `/project_name` directory and type 
+```
+source bin/activate
+```
+
+3. Grab Pip manually and install
+```
+wget https://bootstrap.pypa.io/get-pip.py
+python get-pip.py
+```
